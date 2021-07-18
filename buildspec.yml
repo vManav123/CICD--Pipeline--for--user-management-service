@@ -7,7 +7,7 @@ phases:
       - mvn clean package
   post_build:
     commands:
-      -echo Build compeleted successfully
+      - echo Build compeleted successfully
 artifacts:
   files:
     -target/user-management-service.jar
